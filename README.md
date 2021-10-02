@@ -7,12 +7,11 @@
 </h1>
 
 <h4 align="center">A Landing Page for a Travel Agency.</h4>
-<p align="center">This landing page is a Minimal Viable Product for a travel agency made for practice my flexbox and SCSS skills.</p>
+<p align="center">This landing page is a Minimal Viable Product for a travel agency made for practice my Flexbox and SCSS skills.</p>
 <!--
 <p align="center">
   <a href="#key-features">Key Features</a> |
   <a href="#how-to-use">How To Use</a> |
-  <a href="#download">Download</a> |
   <a href="#credits">Credits</a> |
   <a href="#related">Related</a> |
   <a href="#license">License</a>
@@ -41,6 +40,7 @@
   - Write distraction free.
 - Cross platform
   - Windows, macOS and Linux ready.
+-->
 
 ## How To Use
 
@@ -48,24 +48,19 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/LNCE21/travelAgency.git
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd travelAgency
 
 # Install dependencies
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-## Download
-
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
-
+<!--
 ## Emailware
 
 Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
@@ -110,4 +105,4 @@ MIT
 > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
 > GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
 > Twitter [@amit_merchant](https://twitter.com/amit_merchant)
--->
+> -->
