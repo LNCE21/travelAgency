@@ -6,7 +6,8 @@
   <br>
 </h1>
 
-<h4 align="center">A Minimal Viable Product Landing Page of a Travel Agency.</h4>
+<h4 align="center">A Landing Page for a Travel Agency.</h4>
+<p align="center">This landing page is a Minimal Viable Product for a travel agency made for practice my flexbox and SCSS skills.</p>
 <!--
 <p align="center">
   <a href="#key-features">Key Features</a> |
