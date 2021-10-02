@@ -58,7 +58,7 @@ $ npm install
 Install extensions on VSCode: Ritwick Dey -Live Sass Compiler- and -Live Server-
 
 # Run the app
-Run the extensions: First Live Sass Compiler and afterwords, Live Server.
+Run the extensions: First Live Sass Compiler and afterwords, Live server.
 ```
 
 <!--
