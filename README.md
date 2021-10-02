@@ -7,7 +7,7 @@
 </h1>
 
 <h4 align="center">A Minimal Viable Product Landing Page of a Travel Agency.</h4>
-
+<!--
 <p align="center">
   <a href="#key-features">Key Features</a> |
   <a href="#how-to-use">How To Use</a> |
@@ -17,7 +17,9 @@
   <a href="#license">License</a>
 </p>
 
+<!--GIF DEMO OF THE PROJECT
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+
 
 ## Key Features
 
@@ -107,3 +109,4 @@ MIT
 > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
 > GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
 > Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+-->
