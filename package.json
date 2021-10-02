@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LNCE21/travelAgency/issues"
   },
-  "homepage": "https://github.com/LNCE21/travelAgency#readme"
+  "homepage": "https://github.com/LNCE21/travelAgency#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
 }
