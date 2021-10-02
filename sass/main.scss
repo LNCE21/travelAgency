@@ -15,3 +15,13 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
+
+$color-primary: #ba265d;
+$color-secondary: #faf9f9;
+$color-grey-dark: #999;
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary, 0.08)
+  );
+}

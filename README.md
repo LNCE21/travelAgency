@@ -55,10 +55,14 @@ $ cd travelAgency
 
 # Install dependencies
 $ npm install
-Install extensions on VSCode: Ritwick Dey -Live Sass Compiler- and -Live Server-
+
+# Install extension on VSCode
+Ritwick Dey -Live Server-
 
 # Run the app
-Run the extensions: First Live Sass Compiler and afterwords, Live server.
+1st On the terminal execute: npm run compile:sass
+2nd Open the extension Live server and click on -Go Live-
+
 ```
 
 <!--

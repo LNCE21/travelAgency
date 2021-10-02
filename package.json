@@ -1,10 +1,10 @@
 {
   "name": "travelagency",
   "version": "1.0.0",
-  "description": "Landing Page for Travel Agency",
+  "description": "Landing Page for a Travel Agency",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
