@@ -44,7 +44,7 @@
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line follow the instructions bellow:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. If you aren't sure if you have what you need you can write on the terminal "npm -v" and it's going to tell you which version of NPM you have. Next, from your command line:
 
 ```bash
 # Clone this repository
