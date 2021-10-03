@@ -23,7 +23,7 @@
 
 ## Features
 
-- The header has the logo of the Agency, a search bar and a navigation bar.
+- Header from where you can easily navigate the site through his search bar and the navigations.
 - Syntax highlighting
 - LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.

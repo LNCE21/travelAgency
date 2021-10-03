@@ -3,7 +3,10 @@
   margin: 8rem auto; //to center the container inside the body
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
-  min-height: 50rem;
+  height: 100vh;
+  margin-top: 5rem;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .header {
@@ -15,6 +18,8 @@
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .content {
@@ -22,12 +27,18 @@
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--color-grey-dark-1);
-  color: #fff;
+  color: rgb(255, 255, 255);
   flex: 0 0 18%; //Flex grow, shrink, basis
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .hotel-view {
-  background-color: rgb(194, 24, 24);
+  background-color: var(--color-grey-light-4);
   flex: 1; //Flex grow, should grow as much as it can (82%)
+  height: 80rem;
 }

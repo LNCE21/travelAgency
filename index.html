@@ -5,15 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon-plane.png">
+        <link rel="shortcut icon" type="image/png" href="img//favicon-plane.png">
         
         <title>Travel | Your booking app</title>
     </head>
     <body>
         <div class="container">
-            <header class="header">
+            <header id="header" class="header">
                 <div class="logo-box">
-                    <img src="img/favicon-plane.png" alt="Travel Agency Logo" class="logo-box__img">
+                    <a href="#header" class="logo-box__container">
+                        <img src="img/favicon-plane.png" alt="Travel Agency Logo" class="logo-box__container-img">
+                    </a>
                 </div>
                 <form action="#" class="search">
                     <input type="text" class="search__input" placeholder="Search hotels...">
@@ -53,7 +55,45 @@
             <!--Container for sidebar and hotel view-->
             <div class="content">
                 <nav class="sidebar">
-                    
+                    <ul class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-aircraft"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2021 Build By Lautaro Clerici Erhardt. <br>
+                        <a href="https://github.com/LNCE21" class="legal-links" target="_blank">Github</a>
+                    </div>
                 </nav>
                 <main class="hotel-view">
                     Hotel view
