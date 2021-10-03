@@ -19,11 +19,14 @@
 
 <!--GIF DEMO OF THE PROJECT
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
-
+-->
 
 ## Features
 
-- Header from where you can easily navigate the site through his search bar and the navigations.
+- Header that contains a search bar from where you can easily navigate the site and navbar for notifications.
+
+- Sidebar which allows you to navigate through different sections.
+<!--
 - Syntax highlighting
 - LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
@@ -42,7 +45,7 @@
   - Write distraction free.
 - Cross platform
   - Windows, macOS and Linux ready.
--->
+    -->
 
 ## How To Use
 
