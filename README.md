@@ -21,8 +21,10 @@
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
 
-## Key Features
+## Features
 
+- The header has the logo of the Agency, a search bar and a navigation bar.
+- Syntax highlighting
 - LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
 - Sync Scrolling
