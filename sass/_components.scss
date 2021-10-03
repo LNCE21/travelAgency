@@ -2,6 +2,7 @@
 .logo-box {
   display: flex;
   align-items: center;
+  flex: 0 0 30%; //Grow, Shrink, Basis (Width 40% of the header)
 
   &__container {
     display: flex;
@@ -74,11 +75,11 @@
 //User Navigation
 .user-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   align-self: stretch;
   gap: 0.5rem;
-  margin-right: 2rem;
+  flex: 0 0 30%; //Grow, Shrink, Basis (Width 40% of the header)
 
   //Selecting user-nav and its direct children: __icon-box and __user
   & > * {
@@ -126,6 +127,7 @@
   &__user {
     display: flex;
     align-items: center;
+    margin-right: 2.8rem;
   }
 
   &__user-photo {
