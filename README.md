@@ -26,11 +26,17 @@
 - Header that contains a search bar from where you can easily navigate the site and navbar for notifications.
 
 - Sidebar which allows you to navigate through different sections.
-<!--
-- Syntax highlighting
-- LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-- Sync Scrolling
+
+- Main content
+
+  - Description of the Hotel, features, location
+  - Users that recommend the Hotel
+  - A -call to action- button for booking.
+  - At the right we have -User Stories- with punctuation and a review.
+
+-
+
+<!--Sync Scrolling
   - While you type, LivePreview will automatically scroll to the current location you're editing.
 - GitHub Flavored Markdown
 - Syntax highlighting
