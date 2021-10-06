@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  max-height: 130vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
@@ -279,7 +279,6 @@ body {
 .legal {
   position: fixed;
   bottom: 0rem;
-  left: 0.5rem;
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
   text-align: center;
