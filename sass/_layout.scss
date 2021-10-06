@@ -44,6 +44,7 @@
 }
 
 .detail {
+  font-size: 1.4rem;
   min-height: 92.9vh;
   display: flex;
   padding: 4.5rem;
@@ -52,7 +53,6 @@
 }
 
 .description {
-  font-size: 1.4rem;
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -61,6 +61,5 @@
 }
 
 .user-reviews {
-  background-color: #fff;
   flex: 1; //So it grows occupying the remaining space
 }
