@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a target="_blank" href="https://lnce21.github.io/travelAgency/"><img src="img/hotel-2.jpg" alt="Travel Agency" width="200"></a>
+  <a href="https://lnce21.github.io/travelAgency/"><img src="img/hotel-2.jpg" alt="Travel Agency" width="200"></a>
   <br>
   Travel Agency
   <br>
