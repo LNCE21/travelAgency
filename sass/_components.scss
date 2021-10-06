@@ -293,6 +293,7 @@
   border: none;
   color: var(--color-primary);
   font-size: inherit;
+  font-weight: 500;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
   display: inline-block;
@@ -300,8 +301,17 @@
   cursor: pointer;
   transition: all 0.2s;
 
+  & span {
+    margin-left: 1px;
+    transition: margin-left 0.3s;
+  }
+
   &:hover {
     color: var(--color-grey-dark-1);
+
+    & span {
+      margin-left: 8px;
+    }
   }
 
   &:focus {

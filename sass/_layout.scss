@@ -62,4 +62,7 @@
 
 .user-reviews {
   flex: 1; //So it grows occupying the remaining space
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
