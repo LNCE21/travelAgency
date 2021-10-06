@@ -143,6 +143,7 @@
 
 //Side Navigation
 .side-nav {
+  position: fixed;
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem;
@@ -198,6 +199,9 @@
 
 //Legal text
 .legal {
+  position: fixed;
+  bottom: 0rem;
+  left: 0.5rem;
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
   text-align: center;
