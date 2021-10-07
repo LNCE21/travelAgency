@@ -9,11 +9,28 @@
     align-items: center;
     margin-left: 2.8rem;
 
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      margin-left: 1rem;
+    }
+
     &-img {
       height: 6rem;
       align-self: stretch;
       border-radius: 20%;
+
+      //690px = 43.12 em
+      @media only screen and (max-width: 43.12em) {
+        height: 4rem;
+      }
     }
+  }
+
+  //690px = 43.12 em
+  @media only screen and (max-width: 43.12em) {
+    flex: 0 1 20%; //Grow, Shrink, Basis (Width 30% of the header)
+    margin-right: 0.5rem;
+    padding: 0;
   }
 }
 
@@ -45,6 +62,11 @@
     &::-webkit-input-placeholder {
       font-weight: 100;
       color: var(--color-grey-light-5);
+    }
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      flex: 1 0 40%; //Grow, Shrink, Basis (Width 40% of the header)
     }
   }
 
@@ -81,6 +103,13 @@
   gap: 0.5rem;
   flex: 0 0 30%; //Grow, Shrink, Basis (Width 30% of the header)
 
+  //690px = 43.12 em
+  @media only screen and (max-width: 43.12em) {
+    flex: 0 1 10%; //Grow, Shrink, Basis (Width 30% of the header)
+    justify-content: center;
+    gap: 0;
+  }
+
   //Selecting user-nav and its direct children: __icon-box and __user
   & > * {
     padding: 0 2rem;
@@ -88,6 +117,11 @@
     height: 100%;
     display: flex;
     align-items: center;
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      padding-right: 0.5rem;
+    }
   }
   //Selecting again but, to make hover efect on navigation
   & > *:hover {
@@ -103,6 +137,12 @@
     width: 2.25rem;
     margin-top: 1rem;
     fill: var(--color-grey-dark-2);
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      height: 1.9rem;
+      width: 1.9rem;
+    }
   }
 
   &__notification {
@@ -119,8 +159,19 @@
     justify-content: center; //Center text notification vertically
     align-items: center; //Center text horizontally
 
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      top: 1.3rem;
+      right: -0.2rem;
+    }
+
     &-2 {
       right: 0.45rem;
+
+      //690px = 43.12 em
+      @media only screen and (max-width: 43.12em) {
+        right: -0.8rem;
+      }
     }
   }
 
@@ -128,16 +179,30 @@
     display: flex;
     align-items: center;
     margin-right: 2.8rem;
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      margin-right: 0rem;
+    }
   }
 
   &__user-photo {
     height: 3.75rem;
     border-radius: 50%;
     margin-right: 1.2rem;
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      margin-right: 0.2rem;
+    }
   }
 
   &__user-name {
     margin-right: -1rem;
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      margin: 0;
+    }
   }
 }
 
@@ -200,6 +265,12 @@
       justify-content: center;
       padding: 2rem;
     }
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      flex-direction: row;
+      padding: 1.5rem;
+    }
   }
 
   &__icon {
@@ -207,6 +278,13 @@
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor;
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-right: 0.5rem;
+    }
   }
 }
 
@@ -260,6 +338,11 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem;
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      font-size: 1.8rem;
+      padding: 1.25rem 1rem;
+    }
   }
 
   &__stars {
@@ -295,12 +378,23 @@
     margin-left: 3rem;
     padding: 0 2.25rem;
     gap: 1rem;
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      padding: 0 1.5rem;
+      margin-left: 0.5rem;
+    }
   }
 
   &__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: -4px;
+
+    //690px = 43.12 em
+    @media only screen and (max-width: 43.12em) {
+      font-size: 1.8rem;
+    }
   }
 
   &__rating-count {

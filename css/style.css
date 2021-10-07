@@ -71,6 +71,11 @@ body {
   border-radius: 3px;
   overflow: hidden;
 }
+@media only screen and (max-width: 43.12em) {
+  .header {
+    justify-content: center;
+  }
+}
 
 .content {
   display: flex;
@@ -119,6 +124,12 @@ body {
     padding: 2rem;
   }
 }
+@media only screen and (max-width: 43.12em) {
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .description {
   height: auto;
@@ -133,6 +144,12 @@ body {
     height: 100%;
     margin-right: 2.5rem;
     padding: 2rem;
+  }
+}
+@media only screen and (max-width: 43.12em) {
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
@@ -153,10 +170,27 @@ body {
   align-items: center;
   margin-left: 2.8rem;
 }
+@media only screen and (max-width: 43.12em) {
+  .logo-box__container {
+    margin-left: 1rem;
+  }
+}
 .logo-box__container-img {
   height: 6rem;
   align-self: stretch;
   border-radius: 20%;
+}
+@media only screen and (max-width: 43.12em) {
+  .logo-box__container-img {
+    height: 4rem;
+  }
+}
+@media only screen and (max-width: 43.12em) {
+  .logo-box {
+    flex: 0 1 20%;
+    margin-right: 0.5rem;
+    padding: 0;
+  }
 }
 
 .search {
@@ -186,6 +220,11 @@ body {
   font-weight: 100;
   color: var(--color-grey-light-5);
 }
+@media only screen and (max-width: 43.12em) {
+  .search__input {
+    flex: 1 0 40%;
+  }
+}
 .search__input:focus + .search__button {
   background-color: var(--color-grey-light-3);
 }
@@ -213,12 +252,24 @@ body {
   gap: 0.5rem;
   flex: 0 0 30%;
 }
+@media only screen and (max-width: 43.12em) {
+  .user-nav {
+    flex: 0 1 10%;
+    justify-content: center;
+    gap: 0;
+  }
+}
 .user-nav > * {
   padding: 0 2rem;
   cursor: pointer;
   height: 100%;
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 43.12em) {
+  .user-nav > * {
+    padding-right: 0.5rem;
+  }
 }
 .user-nav > *:hover {
   background-color: var(--color-grey-light-2);
@@ -231,6 +282,12 @@ body {
   width: 2.25rem;
   margin-top: 1rem;
   fill: var(--color-grey-dark-2);
+}
+@media only screen and (max-width: 43.12em) {
+  .user-nav__icon {
+    height: 1.9rem;
+    width: 1.9rem;
+  }
 }
 .user-nav__notification {
   font-size: 0.8rem;
@@ -246,21 +303,47 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 43.12em) {
+  .user-nav__notification {
+    top: 1.3rem;
+    right: -0.2rem;
+  }
+}
 .user-nav__notification-2 {
   right: 0.45rem;
+}
+@media only screen and (max-width: 43.12em) {
+  .user-nav__notification-2 {
+    right: -0.8rem;
+  }
 }
 .user-nav__user {
   display: flex;
   align-items: center;
   margin-right: 2.8rem;
 }
+@media only screen and (max-width: 43.12em) {
+  .user-nav__user {
+    margin-right: 0rem;
+  }
+}
 .user-nav__user-photo {
   height: 3.75rem;
   border-radius: 50%;
   margin-right: 1.2rem;
 }
+@media only screen and (max-width: 43.12em) {
+  .user-nav__user-photo {
+    margin-right: 0.2rem;
+  }
+}
 .user-nav__user-name {
   margin-right: -1rem;
+}
+@media only screen and (max-width: 43.12em) {
+  .user-nav__user-name {
+    margin: 0;
+  }
 }
 
 .side-nav {
@@ -316,11 +399,24 @@ body {
     padding: 2rem;
   }
 }
+@media only screen and (max-width: 43.12em) {
+  .side-nav__link:link, .side-nav__link:visited {
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+}
 .side-nav__icon {
   width: 1.75rem;
   height: 1.75rem;
   margin-right: 2rem;
   fill: currentColor;
+}
+@media only screen and (max-width: 43.12em) {
+  .side-nav__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
+  }
 }
 
 .legal {
@@ -369,6 +465,12 @@ body {
   letter-spacing: 1px;
   padding: 1.5rem 3rem;
 }
+@media only screen and (max-width: 43.12em) {
+  .overview__heading {
+    font-size: 1.8rem;
+    padding: 1.25rem 1rem;
+  }
+}
 .overview__stars {
   margin-right: auto;
   display: flex;
@@ -398,10 +500,21 @@ body {
   padding: 0 2.25rem;
   gap: 1rem;
 }
+@media only screen and (max-width: 43.12em) {
+  .overview__rating {
+    padding: 0 1.5rem;
+    margin-left: 0.5rem;
+  }
+}
 .overview__rating-average {
   font-size: 2.25rem;
   font-weight: 300;
   margin-bottom: -4px;
+}
+@media only screen and (max-width: 43.12em) {
+  .overview__rating-average {
+    font-size: 1.8rem;
+  }
 }
 .overview__rating-count {
   font-size: 1rem;
