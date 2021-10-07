@@ -3,7 +3,6 @@
   margin: 8rem auto; //to center the container inside the body
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
-
   margin-top: 0;
   border-radius: 3px;
   overflow: hidden;
@@ -24,6 +23,12 @@
 
 .content {
   display: flex;
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .sidebar {
@@ -36,6 +41,12 @@
   flex: 0 0 18%; //Flex grow, shrink, basis
   border-radius: 3px;
   overflow: hidden;
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .hotel-view {
@@ -50,6 +61,12 @@
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: var(--line);
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    height: 100%;
+    padding: 2rem;
+  }
 }
 
 .description {
@@ -59,6 +76,13 @@
   padding: 3rem;
   flex: 0 1 60%; //Grow Shrink Width
   margin-right: 4.5rem;
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    height: 100%;
+    margin-right: 2.5rem;
+    padding: 2rem;
+  }
 }
 
 .user-reviews {

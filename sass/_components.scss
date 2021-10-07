@@ -148,6 +148,13 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+  }
+
   &__item {
     position: relative;
 
@@ -187,6 +194,12 @@
     align-items: center;
     position: relative;
     z-index: 10;
+
+    //900px
+    @media only screen and (max-width: 56.25em) {
+      justify-content: center;
+      padding: 2rem;
+    }
   }
 
   &__icon {
@@ -205,6 +218,14 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    position: relative;
+    bottom: 0;
+    display: none;
+  }
+
   &-links {
     font-size: 1.2rem;
     color: var(--color-secondary);
@@ -365,11 +386,12 @@
   display: flex;
   align-items: center;
 
-  &_friends {
-  }
-
   &__count {
     margin-right: auto;
+  }
+
+  &__friends {
+    display: flex;
   }
 
   &__photo {
@@ -380,7 +402,7 @@
     border: 3px solid #fff;
 
     &:not(:last-child) {
-      margin-right: -1.5rem;
+      margin-right: -2rem;
     }
   }
 }
@@ -444,14 +466,32 @@
     color: var(--color-grey-light-2);
     font-family: sans-serif;
     z-index: 1;
+
+    //900px
+    @media only screen and (max-width: 56.25em) {
+      font-size: 15rem;
+      top: -1.5rem;
+      left: -0.4rem;
+    }
+  }
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    padding: 2rem;
+    margin-bottom: 2.5rem;
   }
 }
 
 //Call to action
 .cta {
-  padding: 3.5rem 0;
+  padding: 1rem 0;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 7rem;
+
+  //900px
+  @media only screen and (max-width: 56.25em) {
+    margin-top: 2rem;
+  }
 
   &__book-now {
     font-size: 2rem;
