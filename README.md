@@ -1,11 +1,5 @@
-<h1 align="center">
-  <br>
-  <a href="https://lnce21.github.io/travelAgency/"><img src="img/hotel-2.jpg" alt="Travel Agency" width="200"></a>
-  <br>
-  Travel Agency
-  <br>
-</h1>
-
+<h1 align="center">Travel Agency</h1>
+<br>
 <h4 align="center">A Landing Page for a Travel Agency.</h4>
 <p align="center">This landing page is a Minimal Viable Product for a travel agency made for practice my Flexbox and SCSS skills.</p>
 
