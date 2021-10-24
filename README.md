@@ -8,18 +8,16 @@
 
 <h4 align="center">A Landing Page for a Travel Agency.</h4>
 <p align="center">This landing page is a Minimal Viable Product for a travel agency made for practice my Flexbox and SCSS skills.</p>
-<!--
-<p align="center">
-  <a href="#key-features">Key Features</a> |
-  <a href="#how-to-use">How To Use</a> |
-  <a href="#credits">Credits</a> |
-  <a href="#related">Related</a> |
-  <a href="#license">License</a>
-</p>
 
-<!--GIF DEMO OF THE PROJECT
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
--->
+<p align="center">
+Click the demo preview and it will take you to the site!
+<br>
+<br>
+<br>
+<a href="https://lnce21.github.io/travelAgency/" target="_blank"> <img src="img/adventoursGifDemo.gif" alt="Travel Agency Site Demo"/></a>
+</p>
+<br>
+
 
 ## Features
 
