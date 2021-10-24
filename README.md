@@ -14,7 +14,7 @@ Click the demo preview and it will take you to the site!
 <br>
 <br>
 <br>
-<a href="https://lnce21.github.io/travelAgency/" target="_blank"> <img src="img/adventoursGifDemo.gif" alt="Travel Agency Site Demo"/></a>
+<a href="https://lnce21.github.io/travelAgency/" target="_blank"> <img src="img/travelAgencyDemo.gif" alt="Travel Agency Site Demo"/></a>
 </p>
 <br>
 
